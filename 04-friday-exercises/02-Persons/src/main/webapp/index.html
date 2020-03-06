@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>3 sem 2020 | Person | Caroline Høg</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h1>Persons</h1>
+        <div class="container" style="margin:0 auto;">
+            <table align="center">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+            <input type="submit" value="Reload data" id="reloadBtn"/>
+            <button type="button" data-toggle="modal" data-target="#myModal">Add New Person</button>
+
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1>Add new person</h1>
+                    </div>
+                    <div class="modal-body">
+                        First name: <input type="text" value="" id="fName"/> <br>
+                        Last name: <input type="text" value="" id="lName"/> <br>
+                        Phone no: <input type="number" value="" id="phone"/> 
+                        <br><br>
+                        <input type="submit" value="Add person" id="addBtn" />
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <script src="persons.js"></script>
+    </body>
+</html>

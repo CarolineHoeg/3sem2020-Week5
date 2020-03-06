@@ -16,8 +16,8 @@
 3. CORS, SPA.
 
 ## Friday
-1. 
+1. I completed all exercises.
 2. Solutions to the exercises can be found in the folder "04-friday-exercises".
-3. 
+3. JavaScript, DOM, AJAX, CORS, SVG.
 
 
